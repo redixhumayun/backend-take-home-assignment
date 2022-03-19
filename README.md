@@ -48,3 +48,15 @@ This command is used to remove a certain product's stock from a warehouse.
 #### LIST PRODUCTS
 This is the expected format of the command: `LIST PRODUCTS --warehouse ${warehouseName}`
 This command is used to list all details of all products in a warehouse.
+
+
+### Criteria
+
+Your assignment will be scored based on the following criteria:
+
+1. Your ability to clearly understand the instructions laid out in the assignment and ask questions to clear up any doubts
+2. Your ability to architect your code in a way that is scalable.
+3. The readability of your code. You can choose to emphasize the readability either through code style or documentation.
+4. The design of your SQL schema
+
+Good luck!
