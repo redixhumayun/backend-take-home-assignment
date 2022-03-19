@@ -39,7 +39,12 @@ This command is used to delete an existing product. The user can provide a quant
 
 #### STOCK WAREHOUSE
 This is the expected format of the command: `STOCK WAREHOUSE --warehouse ${warehouseName} --sku ${skuNumber} --quantity ${quantity}`
-This command is used to a certain product's stock to a warehouse.
+This command is used to add a certain product's stock to a warehouse.
 
 #### UNSTOCK WAREHOUSE
-This is the expected format of the command: `UNSTOCK WAREHOUSE --warehouse ${warehouseName} `
+This is the expected format of the command: `UNSTOCK WAREHOUSE --warehouse ${warehouseName} --sku ${skuNumber} --quantity ${quantity}`
+This command is used to remove a certain product's stock from a warehouse.
+
+#### LIST PRODUCTS
+This is the expected format of the command: `LIST PRODUCTS --warehouse ${warehouseName}`
+This command is used to list all details of all products in a warehouse.
