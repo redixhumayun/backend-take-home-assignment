@@ -15,7 +15,6 @@ You need to allow a user to enter any 1 of the following commands into the conso
 * STOCK WAREHOUSE
 * UNSTOCK WAREHOUSE
 * LIST PRODUCTS
-* LIST STOCK
 
 ### Explanation Of The Commands
 
