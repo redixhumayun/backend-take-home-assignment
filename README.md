@@ -22,30 +22,37 @@ The following is an explanation of each of the above commands
 
 #### CREATE WAREHOUSE
 This is the expected format of the command:  `CREATE WAREHOUSE --name ${warehouseName}`
+
 This command is used to create a new warehouse
 
 #### DELETE WAREHOUSE
 This is the expected format of the command: `DELETE WAREHOUSE --name ${warehouseName}`
+
 This command is used to delete an existing warehouse
 
 #### ADD PRODUCT
 This is the expected format of the command: `CREATE PRODUCT --name ${productName} --sku ${skuNumber}`
+
 This command is used to create a new product. Here the skuNumber can be a 10 character alphanumeric string and it must be unique for each product
 
 #### DELETE PRODUCT
 This is the expected format of the command: `DELETE PRODUCT --sku ${skuNumber} --quantity ${quantity}`
+
 This command is used to delete an existing product. The user can provide a quantity that may exceed the product quantity currently in the DB
 
 #### STOCK WAREHOUSE
 This is the expected format of the command: `STOCK WAREHOUSE --warehouse ${warehouseName} --sku ${skuNumber} --quantity ${quantity}`
+
 This command is used to add a certain product's stock to a warehouse.
 
 #### UNSTOCK WAREHOUSE
 This is the expected format of the command: `UNSTOCK WAREHOUSE --warehouse ${warehouseName} --sku ${skuNumber} --quantity ${quantity}`
+
 This command is used to remove a certain product's stock from a warehouse.
 
 #### LIST PRODUCTS
 This is the expected format of the command: `LIST PRODUCTS --warehouse ${warehouseName}`
+
 This command is used to list all details of all products in a warehouse.
 
 
